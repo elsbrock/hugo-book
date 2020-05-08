@@ -13,3 +13,15 @@
 {{ define "toc" }}
   {{ partial "docs/toc" . }}
 {{ end }}
+
+{{ define "comments" }}
+<div>
+<script src="https://utteranc.es/client.js"
+        repo="elsbrock/blog"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+{{ end }}
